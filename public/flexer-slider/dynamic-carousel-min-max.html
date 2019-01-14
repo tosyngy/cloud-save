@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta content="charset=utf-8">
+	<title>FlexSlider 2</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+
+  <!-- Demo CSS -->
+	<link rel="stylesheet" href="js/flexslider.css" type="text/css" media="screen" />
+
+
+</head>
+<body>
+
+  <div id="container" class="cf">
+
+<div style="margin:0 15%; width:70%">
+      <section class="slider">
+        <div class="flexslider carousel">
+          <ul class="slides">
+            <li>
+              <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_lemon.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_donut.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_caramel.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_lemon.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_donut.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_caramel.jpg" />
+            </li>
+               <li>
+              <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_lemon.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_donut.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_caramel.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_lemon.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_donut.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_caramel.jpg" />
+            </li>   <li>
+              <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_lemon.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_donut.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_caramel.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_lemon.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_donut.jpg" />
+            </li>
+            <li>
+              <img src="images/kitchen_adventurer_caramel.jpg" />
+            </li>
+          </ul>
+        </div>
+      </section>
+</div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+  
+ 
+
+  <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+
+    (function() {
+
+      // store the slider in a local variable
+      var $window = $(window),
+          flexslider;
+
+      // tiny helper function to add breakpoints
+      function getGridSize() {
+        return (window.innerWidth < 300) ? 2 : (window.innerWidth < 450) ? 3 : 10;
+      }
+
+      $(function() {
+        SyntaxHighlighter.all();
+      });
+
+      $window.load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide",
+          animationSpeed: 400,
+          animationLoop: false,
+          itemWidth: 410,
+          itemMargin: 10,
+          minItems: getGridSize(), // use function to pull in initial value
+          maxItems: getGridSize(), // use function to pull in initial value
+         
+        });
+      });
+
+      // check grid size on resize event
+      $window.resize(function() {
+        var gridSize = getGridSize();
+
+        flexslider.vars.minItems = gridSize;
+        flexslider.vars.maxItems = gridSize;
+      });
+    }());
+
+  </script>
+
+
+</body>
+</html>

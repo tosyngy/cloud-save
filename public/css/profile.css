@@ -1,0 +1,206 @@
+
+.hover-animate{
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+} 
+.font-weight-m{
+    font-weight: 500;
+}
+.text-center.border-right {
+    border-right: solid 3px #cccccc; 
+}
+h1.title.color-black.font-30 {
+    font-family: helvetica;
+    margin:4px;
+}
+h3.sub-title.color-black.font-25 {
+    font-family: helvetica;
+    margin:4px;
+}
+.menu-img{
+    max-width: 100%;   
+}
+.social ul{
+    padding: 0;
+    margin: 12px 0;
+}
+.social li{
+    display: inline-block;
+    list-style: none;
+}
+.ukie-icons {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0px 7px 7px;
+    border-radius: 50%;
+}
+.ukie-icons:first-child{
+    margin-left: 0px;
+}
+.ukie-icons:hover{
+}
+.btn{
+    padding: 0px 20px;
+    line-height: 38px;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.width-td{
+    width: 100px;
+}
+.width-td1{
+    width: 150px;
+}
+.title-resume{
+    margin-bottom: 30px;
+}
+.title-contact{
+    margin-bottom: 30px;
+}
+.title-blog{
+    margin-bottom: 0px;
+}
+.block-grey{
+    width: 100%;
+    padding: 30px;
+}
+.block-grey table{
+    width: 100%;
+}
+.block-grey table td{
+    line-height: 16px;
+    padding-bottom: 8px;
+}
+.padding-block{ 
+    padding-top: 10px; 
+}
+#wraper{
+    width: 100%;
+    display: inline-block;
+    overflow-wrap: break-word;
+}
+.scrollToTop {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    bottom: 100px;
+    right: 0px;
+    display: none;
+}
+
+/* ------------------
+    Menu section
+--------------------*/
+.menu{
+    padding: 48px 0;
+    text-align: center;
+}
+.light{
+    font-weight: 300px;
+}
+.menu .menu-li{
+    display: inline-block;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu .menu-li .foto {
+    display: block;
+}
+.foto.pix { 
+    box-shadow: #ccc 1px 1px 1px 2px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin: auto;  
+}
+.menu .menu-li .name{
+    text-underline: none;
+    margin-top: 13px;
+    display: block;
+}
+
+.menu-style1{
+    text-align: center;
+}
+.menu-style1 .menu-li{
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    border-style: solid 1px #cccccc;
+    border-radius: 50%;
+}
+.menu-li.sm{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}S
+
+.profile-info div{
+    padding: 10px;
+    font-family: helventica, arial, roboto; 
+    color:   color: rgb(96, 96, 96);
+}
+.profile-info span{
+    color:   color: rgb(96, 96, 96);
+}
+.menu-style1 .menu-li .name{
+    text-underline: none;
+    top: 0px;
+    padding-top: 100px;
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    font-size: 15px;
+    z-index: 3;
+}
+.menu-li.sm .name{ 
+    text-underline: none;
+    top: 0px;
+    padding-top: 120px;
+    display: block;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    z-index: 3;
+}
+.menu-style1 .menu-li .foto{
+    display: block;
+    overflow: hidden;
+    z-index: 4;
+    position: relative;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.menu-style1 .menu-li:hover .foto{
+    margin-top: -172px;
+}
+.mainprofile{
+    display: none;
+    overflow: auto;
+    overflow-x: hidden;
+    height: 100%;
+}

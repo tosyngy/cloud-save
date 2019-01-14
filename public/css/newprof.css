@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 7, 2015, 7:17:14 PM
+    Author     : medslat
+*/
+.new-main-wrapper {
+    padding: 5px;
+    height: 100%;;
+    width: 100%;
+/*    overflow-y: auto;
+    overflow-x: hidden; */
+}
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    text-align: center;
+    font-weight: bold; 
+    font-size: 14px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #FFF;
+    cursor: pointer;
+/*    background-color: #16A085;;*/
+    background-color:#f1f1f1;float: right;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f2f2f2 #f1f1f1 transparent;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+}
+/*.col-sm-9 {
+    width: 100%;
+}*/ 
+
+
+
+.ent_rating{
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.thumprofile .main_side_bar_prof{
+    width: 100%;
+    background: #fff !important;
+    /*margin-top: 1%;*/
+    height: 100%;
+}  
+
+.rig{
+
+}
+.user-pic{
+    width: 60px ;
+    height: 65px; 
+}
+.tab_wrapper {
+  width: 100%; 
+  float: left;
+  color: #000;
+  font-family: robotolight;
+}
+.tab_wrapper.prof {
+  width: 90%;
+  margin-left: 10%;
+}
+.tab-content{
+width: 100%;
+min-height: 1px;
+}
+.main_side_bar_prof .user_img{
+    width: 100%;
+height: 100% !important;
+
+}
+#edit_prof_dp11{
+/*width: 100%;
+height: 31%;*/
+height: 224px;
+width: 208px;
+
+}
+.main_side_bar_prof.d{
+    padding-bottom: 10px;   border-bottom: 1px #DFDFDF solid;
+
+}
+.res{
+    padding-bottom: 20px;  
+}
+.ent_desc{
+    /* padding-bottom: 15px; */
+    /* border-bottom: 1px #DFDFDF solid; */
+    /* width: 80%; */
+
+    /* position: relative; */
+    /* top: 8px; */
+    /* left: -2%; */
+}
+.ent_name{
+    font-size: 20px;
+
+    color: rgb(40, 164, 201);
+}
+.ent_loc{
+    font-size: 15px;
+
+    font-weight: 100;
+    /* font-family: robotolight; */
+}
+.ent_rating{
+    font-size: 13px;
+
+}
+.tgClass .fa{
+/*      position: absolute;
+  top: inherit;*/
+}
+.entrate{
+    color: red;   
+}
+.ava_desc{
+    /*margin-top: 16px;*/
+    font-size: 12px !important;
+}
+.usr_ava_start, .usr_ava_end{
+
+}
+.usr_price{
+
+}
+.usr_rev{
+    cursor: pointer;
+    font-size: 13px; 
+}
+.ent_online_time{
+    color: rgb(40, 164, 201);   
+}
+.action_btn{
+    /*margin: 15px 40px;*/
+    margin-top: 12px;
+float: right;
+}
+form#personal div,form#professional div,form#general div,form#address div,form#educatioeducationsubmit #education_doctor,div#hounour_doctor,form#presentations #presentations,form#publication,form#medical #medical,form#emergenc div{
+  padding-left: 30px;
+}
+formin{
+    
+}
+
+.toggle_pro {
+  padding: 10px;
+  min-height: 40px;
+  font-family: helventica,arial,sams;
+  font-size: 15px;
+  text-align: left;
+  background: #f1f1f1;
+  color: #444;
+  /*border-bottom: .2px solid #444;*/
+  cursor: pointer;
+}
+/*.head-wrap  {
+    min-height: 1px;
+    overflow: hidden;
+    display: none;
+} 
+  .toggle_content{
+    min-height: 1px;
+    overflow: hidden;
+    display: none;
+} */
+.drop_down  .toggle_content:first-child{
+    min-height: 1px;
+    overflow: hidden;
+    display: block;
+} 
+.main_side_bar_prof {
+      /*padding-right: 46px;*/
+  width: 254px;
+}
+
+.profAare{
+  height: 75%;
+}

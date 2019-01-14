@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 18, 2015, 10:39:39 PM
+    Author     : akisoft-xisys
+*/
+
+.tip{
+    border: 1px solid #000;
+    position: absolute;
+    width: 180px;
+    right: 42%;
+    /*border-radius: 6px;*/
+    float: right;
+    margin-left: 35%;
+    color: #fff;
+    background: #000;
+    min-height: 60px;
+}

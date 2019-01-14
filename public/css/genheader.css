@@ -1,0 +1,27 @@
+/* 
+    Document   : header1
+    Created on : Feb 24, 2015, 4:45:14 PM
+    Author     : Ayoade
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.head{
+    text-align: center;
+}
+#content > #cont {
+    width:60%;
+    background-color: #E1EEF6;
+    border-right: 5px #fc2a26 solid;
+   border-radius: 10px;
+}
+.usertype{
+    width:80%;
+  
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+#content > #lg {
+    border-radius: 20px;
+    margin-left: 50px;
+}

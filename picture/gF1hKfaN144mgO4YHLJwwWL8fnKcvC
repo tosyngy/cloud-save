@@ -1,0 +1,3 @@
+
+Warning:  mdecrypt_generic() expects parameter 1 to be resource, null given in C:\xampp\htdocs\MyCloudInformation\controllers\error.php on line 10
+Warning:  mdecrypt_generic() expects parameter 1 to be resource, null given in C:\xampp\htdocs\MyCloudInformation\controllers\error.php on line 10
